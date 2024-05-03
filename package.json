@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart":"nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +12,7 @@
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "socket.io": "^4.7.5",
+    "socket.io": "^1.7.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {
