@@ -1,4 +1,6 @@
-const socket = io('/')
+const socket = io('/');
+console.log("Socket connected:", socket.connected);
+
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined,{
     host: '/',
